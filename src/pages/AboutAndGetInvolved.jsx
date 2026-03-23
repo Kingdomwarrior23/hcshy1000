@@ -214,46 +214,91 @@ export default function AboutAndGetInvolved() {
         </div>
       </section>
 
-      {/* Gipson Academy Section */}
+      {/* Gipson Young Men Academy Section */}
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-block bg-[var(--orange)] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest mb-6 shadow-xl">
+              KEY PROGRAM
+            </div>
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[var(--urban-dark)] mb-4 tracking-tight">
+              GIPSON YOUNG MEN <span className="text-[var(--orange)]">ACADEMY</span>
+            </h2>
+            <div className="w-24 h-1 bg-[var(--orange)] mx-auto mb-8" />
+          </div>
+
+          <Card className="border-none shadow-xl overflow-hidden mb-12">
+            <div className="md:flex">
+              <div className="md:w-1/2 p-10 flex items-center justify-center bg-gradient-to-br from-gray-50 to-white">
+                <img
+                  src="https://assets.cdn.filesafe.space/de3KjbYrQ7zXPHj4jqcP/media/69a5ba9eeab438a57be66b97.png"
+                  alt="Gipson Young Men Academy Logo"
+                  className="max-w-full h-auto"
+                  loading="lazy"
+                />
+              </div>
+              <CardContent className="md:w-1/2 p-10 flex flex-col justify-center">
+                <p className="text-xl text-gray-700 leading-relaxed mb-6 font-semibold">
+                  The Gipson Young Men Academy is a mentorship and development program focused on building character, discipline, and leadership in young men throughout Lubbock.
+                </p>
+                <p className="text-lg text-gray-700 leading-relaxed">
+                  Through academic support, life skills training, and athletic development, we're preparing the next generation for success.
+                </p>
+              </CardContent>
+            </div>
+          </Card>
+
+          <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[var(--orange)]">
+            <img
+              src="https://assets.cdn.filesafe.space/de3KjbYrQ7zXPHj4jqcP/media/69a5ba9e753f159a71ac75ff.png"
+              alt="Gipson Young Men Academy - Vision graphic"
+              className="w-full h-auto"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Our Vision Section */}
       <section className="py-24 bg-[var(--urban-dark)] relative overflow-hidden">
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0 bg-[radial-gradient(circle,_var(--orange)_1px,_transparent_1px)] bg-[length:30px_30px]" />
         </div>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <div className="inline-block bg-[var(--orange)] text-white px-6 py-2 rounded-full font-bold text-sm tracking-widest mb-6 shadow-xl">
-              COMING SOON
-            </div>
-            <img
-              src="https://assets.cdn.filesafe.space/de3KjbYrQ7zXPHj4jqcP/media/69a5ba9e753f159a71ac75ff.png"
-              alt="Gipson Academy Logo - Future All Male Academy"
-              className="h-40 w-auto mx-auto mb-8"
-              loading="lazy"
-            />
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
-              GIPSON <span className="text-[var(--orange)]">ACADEMY</span>
+              OUR <span className="text-[var(--orange)]">VISION</span>
             </h2>
-            <div className="w-24 h-1 bg-[var(--orange)] mx-auto mb-6" />
-            <p className="text-xl text-white/90 font-semibold max-w-3xl mx-auto leading-relaxed">
-              Our vision and support for the future — an all male academy dedicated to developing the next generation of leaders in Lubbock, Texas.
+            <div className="w-24 h-1 bg-[var(--orange)] mx-auto mb-8" />
+            
+            <p className="text-xl sm:text-2xl text-white/90 font-semibold max-w-4xl mx-auto leading-relaxed">
+              HCSH Y1000 is working toward opening a boys academy in Lubbock, Texas. In partnership with community leaders, the West Texas Foundation, and Lubbock ISD, our goal is to provide a dedicated space for young men to grow through mentorship, education, athletics, and character development.
+            </p>
+            
+            <p className="text-2xl text-[var(--orange)] font-bold mt-8">
+              This is a 3-5 year vision that will transform our community.
             </p>
           </div>
 
-          <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-[var(--orange)] mb-10">
-            <img
-              src="https://assets.cdn.filesafe.space/de3KjbYrQ7zXPHj4jqcP/media/69a5ba9eeab438a57be66b97.png"
-              alt="Gipson Academy - Vision of the future school building"
-              className="w-full h-auto"
-              loading="lazy"
-            />
-          </div>
-
-          <div className="text-center">
-            <p className="text-white/80 text-lg font-semibold">
-              Interested in supporting the Gipson Academy vision? <br />
-              <a href="tel:8062837868" className="text-[var(--orange)] hover:underline font-bold">(806) 283-7868</a> &nbsp;|&nbsp;
-              <a href="mailto:hcshy1000@yahoo.com" className="text-[var(--orange)] hover:underline font-bold">hcshy1000@yahoo.com</a>
+          <div className="text-center mt-12">
+            <p className="text-white/80 text-lg font-semibold mb-6">
+              Interested in supporting this vision?
             </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button 
+                asChild
+                className="bg-[var(--orange)] hover:bg-[var(--orange)]/90 text-white font-bold text-lg px-8 py-6"
+              >
+                <a href="tel:8062837868">(806) 283-7868</a>
+              </Button>
+              <Button 
+                asChild
+                variant="outline"
+                className="border-2 border-white text-white hover:bg-white hover:text-[var(--urban-dark)] font-bold text-lg px-8 py-6"
+              >
+                <a href="mailto:hcshy1000@yahoo.com">hcshy1000@yahoo.com</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

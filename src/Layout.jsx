@@ -45,7 +45,7 @@ export default function Layout({ children, currentPageName }) {
             <Link to={createPageUrl('Home')} className="flex-shrink-0">
               <img 
                 src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/user_6960549f0752b9e1ec43bff1/9db46aaf7_a4ff6a24-b98f-42bc-a235-ee5d46e914c9.png" 
-                alt="HCSHy1000 - Hub City Street Hoops Logo" 
+                alt="Hub City Y1000 - Youth Nonprofit Organization" 
                 className="h-16 w-auto"
                 width="120"
                 height="64"
@@ -139,11 +139,7 @@ export default function Layout({ children, currentPageName }) {
                 <a href="tel:8062837868" className="block hover:text-[var(--orange)] transition-colors">(806) 283-7868</a>
                 <a href="mailto:hcshy1000@yahoo.com" className="block hover:text-[var(--orange)] transition-colors">hcshy1000@yahoo.com</a>
                 <p className="mt-4">Lubbock, Texas</p>
-                <a href="https://hubcitystreethoops.com/" target="_blank" rel="noopener noreferrer" className="block hover:text-[var(--orange)] transition-colors">hubcitystreethoops.com</a>
-                <a href="https://www.facebook.com/hubcitystreethoops" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[var(--orange)] transition-colors mt-2">
-                  <Facebook className="h-5 w-5" />
-                  <span>Facebook</span>
-                </a>
+                <p className="mt-4 text-xs text-white/70">Sponsored by <a href="https://hubcitystreethoops.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--orange)] transition-colors underline">HubCityStreetHoops.com</a></p>
               </div>
             </div>
 
@@ -186,7 +182,7 @@ export default function Layout({ children, currentPageName }) {
           </div>
 
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm">
-            <p>&copy; 2026 HCSHy1000 - Hub City Street Hoops. All rights reserved.</p>
+            <p>&copy; 2026 Hub City Y1000 (HCSHy1000). All rights reserved.</p>
           </div>
         </div>
       </footer>
